@@ -194,17 +194,26 @@ if (nav) {
   nav.appendChild(mobileNavToggle);
   
   mobileNavToggle.addEventListener('click', () => {
-    const navLinks = nav.querySelector('.hidden');
-    navLinks.classList.toggle('hidden');
-    navLinks.classList.toggle('flex');
-    navLinks.classList.toggle('flex-col');
-    navLinks.classList.toggle('absolute');
-    navLinks.classList.toggle('top-full');
-    navLinks.classList.toggle('left-0');
-    navLinks.classList.toggle('w-full');
-    navLinks.classList.toggle('bg-white');
-    navLinks.classList.toggle('shadow-lg');
-    navLinks.classList.toggle('p-4');
+    const navLinks = nav.querySelector('.hidden, .flex');
+    if (navLinks) {
+      // Toggle menu
+      navLinks.classList.toggle('hidden');
+      navLinks.classList.toggle('flex');
+      navLinks.classList.toggle('flex-col');
+      navLinks.classList.toggle('absolute');
+      navLinks.classList.toggle('top-full');
+      navLinks.classList.toggle('left-0');
+      navLinks.classList.toggle('w-full');
+      // Remove any white bg classes, add dark bg
+      navLinks.classList.remove('bg-white', 'shadow-lg', 'p-4');
+      navLinks.classList.add('bg-gray-900', 'border-t', 'border-gray-700', 'p-4');
+      // Toggle open/close
+      if (navLinks.classList.contains('hidden')) {
+        mobileNavToggle.innerHTML = '<i class="fas fa-bars"></i>';
+      } else {
+        mobileNavToggle.innerHTML = '<i class="fas fa-times"></i>';
+      }
+    }
   });
 }
 
