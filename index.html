@@ -145,7 +145,7 @@
       
       <div class="grid lg:grid-cols-2 gap-8 mb-12">
         <!-- Project Card 1 -->
-        <div class="bg-gray-800/80 backdrop-blur-sm rounded-2xl shadow-xl p-8 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-gray-700">
+        <div class="bg-gray-800/80 backdrop-blur-sm rounded-2xl shadow-xl p-8 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-gray-700 project-pop-effect">
           <div class="flex items-center mb-4">
             <div class="bg-gradient-to-r from-indigo-500 to-purple-500 p-3 rounded-xl mr-4">
               <i class="fas fa-industry text-white text-xl"></i>
@@ -166,13 +166,18 @@
             <span class="bg-green-900/50 text-green-300 px-3 py-1 rounded-full text-sm border border-green-700">Reinforcement Learning</span>
             <span class="bg-blue-900/50 text-blue-300 px-3 py-1 rounded-full text-sm border border-blue-700">Streamlit</span>
           </div>
-          <a href="#" class="inline-flex items-center bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700 text-white px-6 py-3 rounded-lg transition-all duration-300">
-            <i class="fas fa-external-link-alt mr-2"></i>View Project
-          </a>
+          <div class="flex gap-4 mt-4">
+            <a href="#" class="inline-flex items-center bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700 text-white px-6 py-3 rounded-lg transition-all duration-300 view-project-btn">
+              <i class="fas fa-external-link-alt mr-2"></i>View Project
+            </a>
+            <button class="inline-flex items-center bg-white/10 hover:bg-white/20 text-indigo-300 px-6 py-3 rounded-lg border border-indigo-400 transition-all duration-300 project-desc-btn" data-project="ai-manufacturing">
+              <i class="fas fa-info-circle mr-2"></i>Project Description
+            </button>
+          </div>
         </div>
 
         <!-- Project Card 2 -->
-        <div class="bg-white rounded-2xl shadow-xl p-8 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-gray-100">
+        <div class="bg-white rounded-2xl shadow-xl p-8 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-gray-100 project-pop-effect">
           <div class="flex items-center mb-4">
             <div class="bg-gradient-to-r from-purple-500 to-pink-500 p-3 rounded-xl mr-4">
               <i class="fas fa-robot text-white text-xl"></i>
@@ -193,13 +198,18 @@
             <span class="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm">FAISS</span>
             <span class="bg-green-100 text-green-700 px-3 py-1 rounded-full text-sm">NLP</span>
           </div>
-          <a href="#" class="inline-flex items-center bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white px-6 py-3 rounded-lg transition-all duration-300">
-            <i class="fas fa-external-link-alt mr-2"></i>View Project
-          </a>
+          <div class="flex gap-4 mt-4">
+            <a href="#" class="inline-flex items-center bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white px-6 py-3 rounded-lg transition-all duration-300 view-project-btn">
+              <i class="fas fa-external-link-alt mr-2"></i>View Project
+            </a>
+            <button class="inline-flex items-center bg-white/10 hover:bg-white/20 text-indigo-300 px-6 py-3 rounded-lg border border-indigo-400 transition-all duration-300 project-desc-btn" data-project="intelligent-rag-assistant">
+              <i class="fas fa-info-circle mr-2"></i>Project Description
+            </button>
+          </div>
         </div>
 
         <!-- Project Card 3 -->
-        <div class="bg-white rounded-2xl shadow-xl p-8 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-gray-100">
+        <div class="bg-white rounded-2xl shadow-xl p-8 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-gray-100 project-pop-effect">
           <div class="flex items-center mb-4">
             <div class="bg-gradient-to-r from-green-500 to-teal-500 p-3 rounded-xl mr-4">
               <i class="fas fa-brain text-white text-xl"></i>
@@ -220,13 +230,18 @@
             <span class="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm">Medical Imaging</span>
             <span class="bg-purple-100 text-purple-700 px-3 py-1 rounded-full text-sm">Transfer Learning</span>
           </div>
-          <a href="#" class="inline-flex items-center bg-gradient-to-r from-green-600 to-teal-600 hover:from-green-700 hover:to-teal-700 text-white px-6 py-3 rounded-lg transition-all duration-300">
-            <i class="fas fa-external-link-alt mr-2"></i>View Project
-          </a>
+          <div class="flex gap-4 mt-4">
+            <a href="#" class="inline-flex items-center bg-gradient-to-r from-green-600 to-teal-600 hover:from-green-700 hover:to-teal-700 text-white px-6 py-3 rounded-lg transition-all duration-300 view-project-btn">
+              <i class="fas fa-external-link-alt mr-2"></i>View Project
+            </a>
+            <button class="inline-flex items-center bg-white/10 hover:bg-white/20 text-indigo-300 px-6 py-3 rounded-lg border border-indigo-400 transition-all duration-300 project-desc-btn" data-project="brain-tumor-detection">
+              <i class="fas fa-info-circle mr-2"></i>Project Description
+            </button>
+          </div>
         </div>
 
         <!-- Project Card 4 -->
-        <div class="bg-white rounded-2xl shadow-xl p-8 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-gray-100">
+        <div class="bg-white rounded-2xl shadow-xl p-8 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-gray-100 project-pop-effect">
           <div class="flex items-center mb-4">
             <div class="bg-gradient-to-r from-orange-500 to-red-500 p-3 rounded-xl mr-4">
               <i class="fas fa-heart text-white text-xl"></i>
@@ -247,9 +262,14 @@
             <span class="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm">Geolocation</span>
             <span class="bg-green-100 text-green-700 px-3 py-1 rounded-full text-sm">Real-time</span>
           </div>
-          <a href="#" class="inline-flex items-center bg-gradient-to-r from-orange-600 to-red-600 hover:from-orange-700 hover:to-red-700 text-white px-6 py-3 rounded-lg transition-all duration-300">
-            <i class="fas fa-external-link-alt mr-2"></i>View Project
-          </a>
+          <div class="flex gap-4 mt-4">
+            <a href="#" class="inline-flex items-center bg-gradient-to-r from-orange-600 to-red-600 hover:from-orange-700 hover:to-red-700 text-white px-6 py-3 rounded-lg transition-all duration-300 view-project-btn">
+              <i class="fas fa-external-link-alt mr-2"></i>View Project
+            </a>
+            <button class="inline-flex items-center bg-white/10 hover:bg-white/20 text-indigo-300 px-6 py-3 rounded-lg border border-indigo-400 transition-all duration-300 project-desc-btn" data-project="annamitra">
+              <i class="fas fa-info-circle mr-2"></i>Project Description
+            </button>
+          </div>
         </div>
       </div>
 
@@ -260,7 +280,7 @@
       </div>
       
               <div class="grid md:grid-cols-3 gap-6">
-        <div class="bg-gray-800/80 backdrop-blur-sm rounded-xl shadow-lg p-6 hover:shadow-xl transition-all duration-300 border border-gray-700">
+        <div class="bg-gray-800/80 backdrop-blur-sm rounded-xl shadow-lg p-6 hover:shadow-xl transition-all duration-300 border border-gray-700 project-pop-effect">
           <div class="bg-blue-900/50 p-3 rounded-lg mb-4 inline-block border border-blue-700">
             <i class="fas fa-network-wired text-blue-400 text-xl"></i>
           </div>
@@ -270,9 +290,17 @@
             <span class="bg-blue-900/50 text-blue-300 px-2 py-1 rounded text-xs border border-blue-700">NetworkX</span>
             <span class="bg-purple-900/50 text-purple-300 px-2 py-1 rounded text-xs border border-purple-700">Gephi</span>
           </div>
+          <div class="flex gap-4 mt-4">
+            <a href="#" class="inline-flex items-center bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700 text-white px-6 py-3 rounded-lg transition-all duration-300 view-project-btn">
+              <i class="fas fa-external-link-alt mr-2"></i>View Project
+            </a>
+            <button class="inline-flex items-center bg-white/10 hover:bg-white/20 text-indigo-300 px-6 py-3 rounded-lg border border-indigo-400 transition-all duration-300 project-desc-btn" data-project="sna">
+              <i class="fas fa-info-circle mr-2"></i>Project Description
+            </button>
+          </div>
         </div>
 
-        <div class="bg-gray-800/80 backdrop-blur-sm rounded-xl shadow-lg p-6 hover:shadow-xl transition-all duration-300 border border-gray-700">
+        <div class="bg-gray-800/80 backdrop-blur-sm rounded-xl shadow-lg p-6 hover:shadow-xl transition-all duration-300 border border-gray-700 project-pop-effect">
           <div class="bg-green-900/50 p-3 rounded-lg mb-4 inline-block border border-green-700">
             <i class="fas fa-virus text-green-400 text-xl"></i>
           </div>
@@ -282,9 +310,17 @@
             <span class="bg-green-900/50 text-green-300 px-2 py-1 rounded text-xs border border-green-700">CNN</span>
             <span class="bg-blue-900/50 text-blue-300 px-2 py-1 rounded text-xs border border-blue-700">Medical Imaging</span>
           </div>
+          <div class="flex gap-4 mt-4">
+            <a href="#" class="inline-flex items-center bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700 text-white px-6 py-3 rounded-lg transition-all duration-300 view-project-btn">
+              <i class="fas fa-external-link-alt mr-2"></i>View Project
+            </a>
+            <button class="inline-flex items-center bg-white/10 hover:bg-white/20 text-indigo-300 px-6 py-3 rounded-lg border border-indigo-400 transition-all duration-300 project-desc-btn" data-project="covid">
+              <i class="fas fa-info-circle mr-2"></i>Project Description
+            </button>
+          </div>
         </div>
 
-        <div class="bg-gray-800/80 backdrop-blur-sm rounded-xl shadow-lg p-6 hover:shadow-xl transition-all duration-300 border border-gray-700">
+        <div class="bg-gray-800/80 backdrop-blur-sm rounded-xl shadow-lg p-6 hover:shadow-xl transition-all duration-300 border border-gray-700 project-pop-effect">
           <div class="bg-purple-900/50 p-3 rounded-lg mb-4 inline-block border border-purple-700">
             <i class="fas fa-language text-purple-400 text-xl"></i>
           </div>
@@ -294,9 +330,17 @@
             <span class="bg-purple-900/50 text-purple-300 px-2 py-1 rounded text-xs border border-purple-700">LSTM</span>
             <span class="bg-blue-900/50 text-blue-300 px-2 py-1 rounded text-xs border border-blue-700">NLP</span>
           </div>
+          <div class="flex gap-4 mt-4">
+            <a href="#" class="inline-flex items-center bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700 text-white px-6 py-3 rounded-lg transition-all duration-300 view-project-btn">
+              <i class="fas fa-external-link-alt mr-2"></i>View Project
+            </a>
+            <button class="inline-flex items-center bg-white/10 hover:bg-white/20 text-indigo-300 px-6 py-3 rounded-lg border border-indigo-400 transition-all duration-300 project-desc-btn" data-project="translator">
+              <i class="fas fa-info-circle mr-2"></i>Project Description
+            </button>
+          </div>
         </div>
 
-        <div class="bg-gray-800/80 backdrop-blur-sm rounded-xl shadow-lg p-6 hover:shadow-xl transition-all duration-300 border border-gray-700">
+        <div class="bg-gray-800/80 backdrop-blur-sm rounded-xl shadow-lg p-6 hover:shadow-xl transition-all duration-300 border border-gray-700 project-pop-effect">
           <div class="bg-yellow-900/50 p-3 rounded-lg mb-4 inline-block border border-yellow-700">
             <i class="fas fa-seedling text-yellow-400 text-xl"></i>
           </div>
@@ -306,9 +350,17 @@
             <span class="bg-yellow-900/50 text-yellow-300 px-2 py-1 rounded text-xs border border-yellow-700">Regression</span>
             <span class="bg-green-900/50 text-green-300 px-2 py-1 rounded text-xs border border-green-700">Agriculture</span>
           </div>
+          <div class="flex gap-4 mt-4">
+            <a href="#" class="inline-flex items-center bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700 text-white px-6 py-3 rounded-lg transition-all duration-300 view-project-btn">
+              <i class="fas fa-external-link-alt mr-2"></i>View Project
+            </a>
+            <button class="inline-flex items-center bg-white/10 hover:bg-white/20 text-indigo-300 px-6 py-3 rounded-lg border border-indigo-400 transition-all duration-300 project-desc-btn" data-project="crop">
+              <i class="fas fa-info-circle mr-2"></i>Project Description
+            </button>
+          </div>
         </div>
 
-        <div class="bg-gray-800/80 backdrop-blur-sm rounded-xl shadow-lg p-6 hover:shadow-xl transition-all duration-300 border border-gray-700">
+        <div class="bg-gray-800/80 backdrop-blur-sm rounded-xl shadow-lg p-6 hover:shadow-xl transition-all duration-300 border border-gray-700 project-pop-effect">
           <div class="bg-red-900/50 p-3 rounded-lg mb-4 inline-block border border-red-700">
             <i class="fas fa-envelope text-red-400 text-xl"></i>
           </div>
@@ -318,9 +370,17 @@
             <span class="bg-red-900/50 text-red-300 px-2 py-1 rounded text-xs border border-red-700">TF-IDF</span>
             <span class="bg-blue-900/50 text-blue-300 px-2 py-1 rounded text-xs border border-blue-700">Naïve Bayes</span>
           </div>
+          <div class="flex gap-4 mt-4">
+            <a href="#" class="inline-flex items-center bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700 text-white px-6 py-3 rounded-lg transition-all duration-300 view-project-btn">
+              <i class="fas fa-external-link-alt mr-2"></i>View Project
+            </a>
+            <button class="inline-flex items-center bg-white/10 hover:bg-white/20 text-indigo-300 px-6 py-3 rounded-lg border border-indigo-400 transition-all duration-300 project-desc-btn" data-project="spam">
+              <i class="fas fa-info-circle mr-2"></i>Project Description
+            </button>
+          </div>
         </div>
 
-        <div class="bg-gray-800/80 backdrop-blur-sm rounded-xl shadow-lg p-6 hover:shadow-xl transition-all duration-300 border border-gray-700">
+        <div class="bg-gray-800/80 backdrop-blur-sm rounded-xl shadow-lg p-6 hover:shadow-xl transition-all duration-300 border border-gray-700 project-pop-effect">
           <div class="bg-indigo-900/50 p-3 rounded-lg mb-4 inline-block border border-indigo-700">
             <i class="fas fa-futbol text-indigo-400 text-xl"></i>
           </div>
@@ -329,6 +389,14 @@
           <div class="flex flex-wrap gap-1 mb-3">
             <span class="bg-indigo-900/50 text-indigo-300 px-2 py-1 rounded text-xs border border-indigo-700">Pandas</span>
             <span class="bg-blue-900/50 text-blue-300 px-2 py-1 rounded text-xs border border-blue-700">Data Cleaning</span>
+          </div>
+          <div class="flex gap-4 mt-4">
+            <a href="#" class="inline-flex items-center bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700 text-white px-6 py-3 rounded-lg transition-all duration-300 view-project-btn">
+              <i class="fas fa-external-link-alt mr-2"></i>View Project
+            </a>
+            <button class="inline-flex items-center bg-white/10 hover:bg-white/20 text-indigo-300 px-6 py-3 rounded-lg border border-indigo-400 transition-all duration-300 project-desc-btn" data-project="epl">
+              <i class="fas fa-info-circle mr-2"></i>Project Description
+            </button>
           </div>
         </div>
       </div>
@@ -350,27 +418,27 @@
       <div class="mb-12">
         <h4 class="text-2xl font-bold text-gray-100 mb-8 text-center">Programming Languages</h4>
                   <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6">
-            <div class="bg-gradient-to-br from-blue-900/30 to-indigo-900/30 p-6 rounded-2xl text-center hover:shadow-lg transition-all duration-300 transform hover:scale-105 border border-gray-700">
+            <div class="bg-gradient-to-br from-blue-900/30 to-indigo-900/30 p-6 rounded-2xl text-center hover:shadow-lg transition-all duration-300 transform hover:scale-105 border border-gray-700 project-pop-effect">
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" class="w-16 h-16 mx-auto mb-3">
               <span class="font-semibold text-gray-100">Python</span>
             </div>
-            <div class="bg-gradient-to-br from-orange-900/30 to-red-900/30 p-6 rounded-2xl text-center hover:shadow-lg transition-all duration-300 transform hover:scale-105 border border-gray-700">
+            <div class="bg-gradient-to-br from-orange-900/30 to-red-900/30 p-6 rounded-2xl text-center hover:shadow-lg transition-all duration-300 transform hover:scale-105 border border-gray-700 project-pop-effect">
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" class="w-16 h-16 mx-auto mb-3">
               <span class="font-semibold text-gray-100">Java</span>
             </div>
-            <div class="bg-gradient-to-br from-yellow-900/30 to-orange-900/30 p-6 rounded-2xl text-center hover:shadow-lg transition-all duration-300 transform hover:scale-105 border border-gray-700">
+            <div class="bg-gradient-to-br from-yellow-900/30 to-orange-900/30 p-6 rounded-2xl text-center hover:shadow-lg transition-all duration-300 transform hover:scale-105 border border-gray-700 project-pop-effect">
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" class="w-16 h-16 mx-auto mb-3">
               <span class="font-semibold text-gray-100">JavaScript</span>
             </div>
-            <div class="bg-gradient-to-br from-blue-900/30 to-cyan-900/30 p-6 rounded-2xl text-center hover:shadow-lg transition-all duration-300 transform hover:scale-105 border border-gray-700">
+            <div class="bg-gradient-to-br from-blue-900/30 to-cyan-900/30 p-6 rounded-2xl text-center hover:shadow-lg transition-all duration-300 transform hover:scale-105 border border-gray-700 project-pop-effect">
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" class="w-16 h-16 mx-auto mb-3">
               <span class="font-semibold text-gray-100">HTML5</span>
             </div>
-            <div class="bg-gradient-to-br from-purple-900/30 to-pink-900/30 p-6 rounded-2xl text-center hover:shadow-lg transition-all duration-300 transform hover:scale-105 border border-gray-700">
+            <div class="bg-gradient-to-br from-purple-900/30 to-pink-900/30 p-6 rounded-2xl text-center hover:shadow-lg transition-all duration-300 transform hover:scale-105 border border-gray-700 project-pop-effect">
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" class="w-16 h-16 mx-auto mb-3">
               <span class="font-semibold text-gray-100">CSS3</span>
             </div>
-            <div class="bg-gradient-to-br from-green-900/30 to-emerald-900/30 p-6 rounded-2xl text-center hover:shadow-lg transition-all duration-300 transform hover:scale-105 border border-gray-700">
+            <div class="bg-gradient-to-br from-green-900/30 to-emerald-900/30 p-6 rounded-2xl text-center hover:shadow-lg transition-all duration-300 transform hover:scale-105 border border-gray-700 project-pop-effect">
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" class="w-16 h-16 mx-auto mb-3">
               <span class="font-semibold text-gray-100">MySQL</span>
             </div>
@@ -381,29 +449,29 @@
       <div class="mb-12">
         <h4 class="text-2xl font-bold text-gray-100 mb-8 text-center">AI & Machine Learning</h4>
                   <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6">
-            <div class="bg-gradient-to-br from-orange-900/30 to-yellow-900/30 p-6 rounded-2xl text-center hover:shadow-lg transition-all duration-300 transform hover:scale-105 border border-gray-700">
+            <div class="bg-gradient-to-br from-orange-900/30 to-yellow-900/30 p-6 rounded-2xl text-center hover:shadow-lg transition-all duration-300 transform hover:scale-105 border border-gray-700 project-pop-effect">
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" alt="TensorFlow" class="w-16 h-16 mx-auto mb-3">
               <span class="font-semibold text-gray-100">TensorFlow</span>
             </div>
-            <div class="bg-gradient-to-br from-blue-900/30 to-indigo-900/30 p-6 rounded-2xl text-center hover:shadow-lg transition-all duration-300 transform hover:scale-105 border border-gray-700">
+            <div class="bg-gradient-to-br from-blue-900/30 to-indigo-900/30 p-6 rounded-2xl text-center hover:shadow-lg transition-all duration-300 transform hover:scale-105 border border-gray-700 project-pop-effect">
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" alt="PyTorch" class="w-16 h-16 mx-auto mb-3">
               <span class="font-semibold text-gray-100">PyTorch</span>
             </div>
-            <div class="bg-gradient-to-br from-green-900/30 to-emerald-900/30 p-6 rounded-2xl text-center hover:shadow-lg transition-all duration-300 transform hover:scale-105 border border-gray-700">
+            <div class="bg-gradient-to-br from-green-900/30 to-emerald-900/30 p-6 rounded-2xl text-center hover:shadow-lg transition-all duration-300 transform hover:scale-105 border border-gray-700 project-pop-effect">
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikit-learn/scikit-learn-original.svg" alt="Scikit-learn" class="w-16 h-16 mx-auto mb-3">
               <span class="font-semibold text-gray-100">Scikit-learn</span>
             </div>
-            <div class="bg-gradient-to-br from-purple-900/30 to-pink-900/30 p-6 rounded-2xl text-center hover:shadow-lg transition-all duration-300 transform hover:scale-105 border border-gray-700">
+            <div class="bg-gradient-to-br from-purple-900/30 to-pink-900/30 p-6 rounded-2xl text-center hover:shadow-lg transition-all duration-300 transform hover:scale-105 border border-gray-700 project-pop-effect">
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" alt="OpenCV" class="w-16 h-16 mx-auto mb-3">
               <span class="font-semibold text-gray-100">OpenCV</span>
             </div>
-            <div class="bg-gradient-to-br from-indigo-900/30 to-purple-900/30 p-6 rounded-2xl text-center hover:shadow-lg transition-all duration-300 transform hover:scale-105 border border-gray-700">
+            <div class="bg-gradient-to-br from-indigo-900/30 to-purple-900/30 p-6 rounded-2xl text-center hover:shadow-lg transition-all duration-300 transform hover:scale-105 border border-gray-700 project-pop-effect">
               <div class="w-16 h-16 mx-auto mb-3 flex items-center justify-center">
                 <i class="fas fa-brain text-4xl text-indigo-400"></i>
               </div>
               <span class="font-semibold text-gray-100">LangChain</span>
             </div>
-            <div class="bg-gradient-to-br from-red-900/30 to-pink-900/30 p-6 rounded-2xl text-center hover:shadow-lg transition-all duration-300 transform hover:scale-105 border border-gray-700">
+            <div class="bg-gradient-to-br from-red-900/30 to-pink-900/30 p-6 rounded-2xl text-center hover:shadow-lg transition-all duration-300 transform hover:scale-105 border border-gray-700 project-pop-effect">
               <div class="w-16 h-16 mx-auto mb-3 flex items-center justify-center">
                 <i class="fas fa-robot text-4xl text-red-400"></i>
               </div>
@@ -416,27 +484,27 @@
       <div class="mb-12">
         <h4 class="text-2xl font-bold text-gray-100 mb-8 text-center">Data Science & Analytics</h4>
                   <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6">
-            <div class="bg-gradient-to-br from-blue-900/30 to-cyan-900/30 p-6 rounded-2xl text-center hover:shadow-lg transition-all duration-300 transform hover:scale-105 border border-gray-700">
+            <div class="bg-gradient-to-br from-blue-900/30 to-cyan-900/30 p-6 rounded-2xl text-center hover:shadow-lg transition-all duration-300 transform hover:scale-105 border border-gray-700 project-pop-effect">
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" alt="Pandas" class="w-16 h-16 mx-auto mb-3">
               <span class="font-semibold text-gray-100">Pandas</span>
             </div>
-            <div class="bg-gradient-to-br from-yellow-900/30 to-orange-900/30 p-6 rounded-2xl text-center hover:shadow-lg transition-all duration-300 transform hover:scale-105 border border-gray-700">
+            <div class="bg-gradient-to-br from-yellow-900/30 to-orange-900/30 p-6 rounded-2xl text-center hover:shadow-lg transition-all duration-300 transform hover:scale-105 border border-gray-700 project-pop-effect">
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" alt="NumPy" class="w-16 h-16 mx-auto mb-3">
               <span class="font-semibold text-gray-100">NumPy</span>
             </div>
-            <div class="bg-gradient-to-br from-green-900/30 to-emerald-900/30 p-6 rounded-2xl text-center hover:shadow-lg transition-all duration-300 transform hover:scale-105 border border-gray-700">
+            <div class="bg-gradient-to-br from-green-900/30 to-emerald-900/30 p-6 rounded-2xl text-center hover:shadow-lg transition-all duration-300 transform hover:scale-105 border border-gray-700 project-pop-effect">
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg" alt="Matplotlib" class="w-16 h-16 mx-auto mb-3">
               <span class="font-semibold text-gray-100">Matplotlib</span>
             </div>
-            <div class="bg-gradient-to-br from-purple-900/30 to-pink-900/30 p-6 rounded-2xl text-center hover:shadow-lg transition-all duration-300 transform hover:scale-105 border border-gray-700">
+            <div class="bg-gradient-to-br from-purple-900/30 to-pink-900/30 p-6 rounded-2xl text-center hover:shadow-lg transition-all duration-300 transform hover:scale-105 border border-gray-700 project-pop-effect">
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/seaborn/seaborn-original.svg" alt="Seaborn" class="w-16 h-16 mx-auto mb-3">
               <span class="font-semibold text-gray-100">Seaborn</span>
             </div>
-            <div class="bg-gradient-to-br from-indigo-900/30 to-blue-900/30 p-6 rounded-2xl text-center hover:shadow-lg transition-all duration-300 transform hover:scale-105 border border-gray-700">
+            <div class="bg-gradient-to-br from-indigo-900/30 to-blue-900/30 p-6 rounded-2xl text-center hover:shadow-lg transition-all duration-300 transform hover:scale-105 border border-gray-700 project-pop-effect">
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/streamlit/streamlit-original.svg" alt="Streamlit" class="w-16 h-16 mx-auto mb-3">
               <span class="font-semibold text-gray-100">Streamlit</span>
             </div>
-            <div class="bg-gradient-to-br from-red-900/30 to-orange-900/30 p-6 rounded-2xl text-center hover:shadow-lg transition-all duration-300 transform hover:scale-105 border border-gray-700">
+            <div class="bg-gradient-to-br from-red-900/30 to-orange-900/30 p-6 rounded-2xl text-center hover:shadow-lg transition-all duration-300 transform hover:scale-105 border border-gray-700 project-pop-effect">
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" alt="Jupyter" class="w-16 h-16 mx-auto mb-3">
               <span class="font-semibold text-gray-100">Jupyter</span>
             </div>
@@ -447,27 +515,27 @@
       <div class="mb-12">
         <h4 class="text-2xl font-bold text-gray-100 mb-8 text-center">Development Tools</h4>
                   <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6">
-            <div class="bg-gradient-to-br from-orange-900/30 to-red-900/30 p-6 rounded-2xl text-center hover:shadow-lg transition-all duration-300 transform hover:scale-105 border border-gray-700">
+            <div class="bg-gradient-to-br from-orange-900/30 to-red-900/30 p-6 rounded-2xl text-center hover:shadow-lg transition-all duration-300 transform hover:scale-105 border border-gray-700 project-pop-effect">
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" class="w-16 h-16 mx-auto mb-3">
               <span class="font-semibold text-gray-100">Git</span>
             </div>
-            <div class="bg-gradient-to-br from-blue-900/30 to-indigo-900/30 p-6 rounded-2xl text-center hover:shadow-lg transition-all duration-300 transform hover:scale-105 border border-gray-700">
+            <div class="bg-gradient-to-br from-blue-900/30 to-indigo-900/30 p-6 rounded-2xl text-center hover:shadow-lg transition-all duration-300 transform hover:scale-105 border border-gray-700 project-pop-effect">
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" class="w-16 h-16 mx-auto mb-3">
               <span class="font-semibold text-gray-100">GitHub</span>
             </div>
-            <div class="bg-gradient-to-br from-purple-900/30 to-pink-900/30 p-6 rounded-2xl text-center hover:shadow-lg transition-all duration-300 transform hover:scale-105 border border-gray-700">
+            <div class="bg-gradient-to-br from-purple-900/30 to-pink-900/30 p-6 rounded-2xl text-center hover:shadow-lg transition-all duration-300 transform hover:scale-105 border border-gray-700 project-pop-effect">
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code" class="w-16 h-16 mx-auto mb-3">
               <span class="font-semibold text-gray-100">VS Code</span>
             </div>
-            <div class="bg-gradient-to-br from-green-900/30 to-emerald-900/30 p-6 rounded-2xl text-center hover:shadow-lg transition-all duration-300 transform hover:scale-105 border border-gray-700">
+            <div class="bg-gradient-to-br from-green-900/30 to-emerald-900/30 p-6 rounded-2xl text-center hover:shadow-lg transition-all duration-300 transform hover:scale-105 border border-gray-700 project-pop-effect">
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="Linux" class="w-16 h-16 mx-auto mb-3">
               <span class="font-semibold text-gray-100">Linux</span>
             </div>
-            <div class="bg-gradient-to-br from-yellow-900/30 to-orange-900/30 p-6 rounded-2xl text-center hover:shadow-lg transition-all duration-300 transform hover:scale-105 border border-gray-700">
+            <div class="bg-gradient-to-br from-yellow-900/30 to-orange-900/30 p-6 rounded-2xl text-center hover:shadow-lg transition-all duration-300 transform hover:scale-105 border border-gray-700 project-pop-effect">
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" class="w-16 h-16 mx-auto mb-3">
               <span class="font-semibold text-gray-100">Docker</span>
             </div>
-            <div class="bg-gradient-to-br from-indigo-900/30 to-purple-900/30 p-6 rounded-2xl text-center hover:shadow-lg transition-all duration-300 transform hover:scale-105 border border-gray-700">
+            <div class="bg-gradient-to-br from-indigo-900/30 to-purple-900/30 p-6 rounded-2xl text-center hover:shadow-lg transition-all duration-300 transform hover:scale-105 border border-gray-700 project-pop-effect">
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-original.svg" alt="Heroku" class="w-16 h-16 mx-auto mb-3">
               <span class="font-semibold text-gray-100">Heroku</span>
             </div>
@@ -553,7 +621,7 @@
       </div>
       
       <div class="grid md:grid-cols-3 gap-8">
-        <div class="bg-gray-800/80 backdrop-blur-sm rounded-2xl shadow-xl p-8 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-gray-700">
+        <div class="bg-gray-800/80 backdrop-blur-sm rounded-2xl shadow-xl p-8 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-gray-700 project-pop-effect">
           <div class="text-center mb-6">
             <div class="bg-gradient-to-r from-green-500 to-emerald-500 p-4 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center">
               <i class="fas fa-robot text-white text-2xl"></i>
@@ -564,7 +632,7 @@
           <p class="text-gray-300 text-center">Advanced course on Generative AI, covering LLMs, transformers, and cutting-edge AI technologies for real-world applications.</p>
         </div>
 
-        <div class="bg-gray-800/80 backdrop-blur-sm rounded-2xl shadow-xl p-8 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-gray-700">
+        <div class="bg-gray-800/80 backdrop-blur-sm rounded-2xl shadow-xl p-8 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-gray-700 project-pop-effect">
           <div class="text-center mb-6">
             <div class="bg-gradient-to-r from-green-500 to-emerald-500 p-4 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center">
               <i class="fas fa-laptop-code text-white text-2xl"></i>
@@ -575,7 +643,7 @@
           <p class="text-gray-300 text-center">Hands-on data science internship with real-world projects and industry best practices.</p>
         </div>
 
-        <div class="bg-gray-800/80 backdrop-blur-sm rounded-2xl shadow-xl p-8 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-gray-700">
+        <div class="bg-gray-800/80 backdrop-blur-sm rounded-2xl shadow-xl p-8 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-gray-700 project-pop-effect">
           <div class="text-center mb-6">
             <div class="bg-gradient-to-r from-purple-500 to-pink-500 p-4 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center">
               <i class="fas fa-graduation-cap text-white text-2xl"></i>
@@ -766,6 +834,14 @@
       </div>
     </div>
   </footer>
+
+  <!-- Modal for Project Descriptions -->
+  <div id="projectModal" class="fixed inset-0 z-50 flex items-center justify-center bg-black/60 hidden">
+    <div class="bg-gray-900/95 rounded-2xl shadow-2xl max-w-2xl w-full p-8 relative border border-indigo-700">
+      <button id="closeModal" class="absolute top-4 right-4 text-gray-400 hover:text-indigo-400 text-2xl font-bold focus:outline-none">&times;</button>
+      <div id="modalContent" class="text-gray-100"></div>
+    </div>
+  </div>
 
   <script src="main.js"></script>
 </body>
